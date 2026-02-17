@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | CultureCraft360</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+html { scroll-behavior: smooth; }
+</style>
+
+</head>
+
+<body class="bg-slate-50 text-slate-900 font-sans">
+
+<!-- NAVIGATION -->
+<nav class="bg-white shadow-sm py-5">
+  <div class="max-w-7xl mx-auto px-6 flex justify-between items-center">
+
+    <a href="index.html" class="text-2xl font-black tracking-tight">
+      CULTURE<span class="text-blue-600">CRAFT</span>360
+    </a>
+
+    <div class="hidden md:flex space-x-8 font-semibold text-sm uppercase tracking-wider">
+      <a href="index.html" class="hover:text-blue-600 transition">Home</a>
+      <a href="about.html" class="hover:text-blue-600 transition">About</a>
+      <a href="services.html" class="hover:text-blue-600 transition">Services</a>
+      <a href="products.html" class="hover:text-blue-600 transition">Products</a>
+      <a href="contact.html" class="text-blue-600">Contact</a>
+    </div>
+
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="py-28 bg-white text-center">
+  <div class="max-w-4xl mx-auto px-6">
+    <h1 class="text-5xl font-black mb-6">Contact Us</h1>
+    <p class="text-slate-600 leading-relaxed text-lg">
+      Let’s discuss how CultureCraft360 can support your organization 
+      with structured HR systems and digital solutions.
+    </p>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="py-24 bg-slate-50">
+  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16">
+
+    <!-- CONTACT FORM -->
+    <div class="bg-white p-12 rounded-3xl shadow-lg">
+
+      <h2 class="text-2xl font-bold mb-8">Send Us a Message</h2>
+
+      <!-- FormSubmit Integration -->
+      <form action="https://formsubmit.co/info@culturecraft360.org" method="POST" class="space-y-6">
+
+        <!-- Disable Captcha -->
+        <input type="hidden" name="_captcha" value="false">
+
+        <!-- Redirect after submit -->
+        <input type="hidden" name="_next" value="https://culturecraft360.org/thankyou.html">
+
+        <div>
+          <label class="block text-sm font-semibold mb-2">Full Name</label>
+          <input type="text" name="name" required 
+            class="w-full border border-slate-300 p-4 rounded-xl focus:outline-none focus:border-blue-600">
+        </div>
+
+        <div>
+          <label class="block text-sm font-semibold mb-2">Email Address</label>
+          <input type="email" name="email" required 
+            class="w-full border border-slate-300 p-4 rounded-xl focus:outline-none focus:border-blue-600">
+        </div>
+
+        <div>
+          <label class="block text-sm font-semibold mb-2">Phone (Optional)</label>
+          <input type="text" name="phone"
+            class="w-full border border-slate-300 p-4 rounded-xl focus:outline-none focus:border-blue-600">
+        </div>
+
+        <div>
+          <label class="block text-sm font-semibold mb-2">Your Message</label>
+          <textarea name="message" rows="5" required
+            class="w-full border border-slate-300 p-4 rounded-xl focus:outline-none focus:border-blue-600"></textarea>
+        </div>
+
+        <button type="submit"
+          class="w-full bg-blue-600 text-white py-4 rounded-xl font-bold hover:bg-blue-500 transition">
+          Submit Inquiry
+        </button>
+
+      </form>
+
+    </div>
+
+    <!-- CONTACT INFO -->
+    <div class="space-y-8">
+
+      <div class="bg-white p-10 rounded-3xl shadow-md">
+        <h3 class="text-xl font-bold mb-4">Direct Contact</h3>
+
+        <p class="mb-2"><strong>Email:</strong> info@culturecraft360.org</p>
+        <p class="mb-2"><strong>Phone:</strong> +8801954696650</p>
+        <p><strong>Location:</strong> Dhaka, Bangladesh</p>
+      </div>
+
+      <!-- WhatsApp Button -->
+      <div class="bg-emerald-600 p-10 rounded-3xl shadow-md text-white text-center">
+        <h3 class="text-xl font-bold mb-4">Chat on WhatsApp</h3>
+
+        <p class="mb-6">
+          Click below to start a direct conversation.
+        </p>
+
+        <a href="https://wa.me/8801954696650" target="_blank"
+           class="bg-white text-emerald-600 px-8 py-3 rounded-xl font-bold hover:bg-slate-100 transition">
+           Start WhatsApp Chat
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<footer class="bg-white py-10 text-center text-sm text-slate-500">
+  © 2026 CultureCraft360 | All Rights Reserved
+</footer>
+<!-- FLOATING WHATSAPP BUTTON -->
+<a href="https://wa.me/8801954696650" 
+   target="_blank"
+   class="fixed bottom-6 right-6 bg-emerald-500 hover:bg-emerald-600 text-white w-16 h-16 rounded-full shadow-2xl flex items-center justify-center transition transform hover:scale-110 z-50">
+
+   <!-- WhatsApp SVG Icon -->
+   <svg xmlns="http://www.w3.org/2000/svg" 
+        width="28" height="28" 
+        viewBox="0 0 24 24" 
+        fill="white">
+     <path d="M20.52 3.48A11.84 11.84 0 0012.05 0C5.39 0 .05 5.34.05 12c0 2.12.55 4.19 1.59 6.02L0 24l6.16-1.62A11.9 11.9 0 0012.05 24c6.66 0 12-5.34 12-12 0-3.2-1.25-6.21-3.53-8.52zM12.05 21.82c-1.86 0-3.68-.5-5.27-1.46l-.38-.23-3.66.96.98-3.57-.25-.37A9.78 9.78 0 012.27 12c0-5.38 4.4-9.78 9.78-9.78 2.61 0 5.06 1.02 6.91 2.87A9.71 9.71 0 0121.82 12c0 5.38-4.4 9.82-9.77 9.82zm5.37-7.37c-.29-.15-1.7-.84-1.97-.93-.26-.1-.45-.15-.64.15-.19.29-.74.93-.9 1.12-.16.19-.32.22-.61.07-.29-.15-1.23-.45-2.34-1.43-.86-.77-1.44-1.72-1.61-2.01-.17-.29-.02-.45.13-.6.13-.13.29-.32.45-.48.15-.16.19-.29.29-.48.1-.19.05-.36-.02-.51-.07-.15-.64-1.55-.87-2.12-.23-.56-.47-.48-.64-.49h-.55c-.19 0-.51.07-.78.36-.26.29-1.02 1-1.02 2.44 0 1.44 1.05 2.84 1.19 3.03.15.19 2.05 3.13 4.96 4.39.69.3 1.23.48 1.65.62.69.22 1.32.19 1.82.12.56-.08 1.7-.7 1.94-1.38.24-.67.24-1.24.17-1.38-.07-.15-.26-.22-.55-.37z"/>
+   </svg>
+
+</a>
+
+</body>
+</html>

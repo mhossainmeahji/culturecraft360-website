@@ -1,36 +1,181 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Services | CultureCraft360</title>
-<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+html { scroll-behavior: smooth; }
+</style>
+
 </head>
-<body>
 
-<nav> ... same nav code ... </nav>
+<body class="bg-slate-50 text-slate-900 font-sans">
 
-<section>
-<h2>Core Consulting Services</h2>
+<!-- NAVIGATION -->
+<nav class="bg-white shadow-sm py-5">
+  <div class="max-w-7xl mx-auto px-6 flex justify-between items-center">
 
-<div class="grid">
-<div class="card">
-<h3>HR Advisory</h3>
-<p>Workforce planning, policy design, and HR system structuring.</p>
-</div>
+    <a href="index.html" class="text-2xl font-black tracking-tight">
+      CULTURE<span class="text-blue-600">CRAFT</span>360
+    </a>
 
-<div class="card">
-<h3>ERP Implementation</h3>
-<p>Production, payroll and inventory system deployment.</p>
-</div>
+    <div class="hidden md:flex space-x-8 font-semibold text-sm uppercase tracking-wider">
+      <a href="index.html" class="hover:text-blue-600 transition">Home</a>
+      <a href="about.html" class="hover:text-blue-600 transition">About</a>
+      <a href="services.html" class="text-blue-600">Services</a>
+      <a href="products.html" class="hover:text-blue-600 transition">Products</a>
+      <a href="contact.html" class="hover:text-blue-600 transition">Contact</a>
+    </div>
 
-<div class="card">
-<h3>Compliance & Optimization</h3>
-<p>Operational governance and reporting system development.</p>
-</div>
-</div>
+  </div>
+</nav>
 
+<!-- HERO -->
+<section class="py-28 bg-white text-center">
+  <div class="max-w-4xl mx-auto px-6">
+    <h1 class="text-5xl font-black mb-6">Our Services</h1>
+    <p class="text-slate-600 leading-relaxed text-lg">
+      Integrated consulting and digital solutions designed to strengthen governance, 
+      automate operations and enable sustainable growth.
+    </p>
+  </div>
 </section>
 
-<footer>© 2026 CultureCraft360</footer>
+<!-- HR CONSULTANCY -->
+<section class="py-24 bg-slate-50">
+  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+
+    <div>
+      <h2 class="text-3xl font-black mb-6">HR Consultancy & Governance Systems</h2>
+
+      <p class="text-slate-600 mb-6 leading-relaxed">
+        We provide structured Human Resource consulting services with strong 
+        alignment to Bangladesh Labor Act 2006 and NGO governance frameworks.
+      </p>
+
+      <ul class="text-sm text-slate-600 space-y-3">
+        <li>✔ NGO Policy Manual Development</li>
+        <li>✔ HR Compliance Audit</li>
+        <li>✔ Organizational Structuring</li>
+        <li>✔ Performance Management Systems</li>
+        <li>✔ Payroll & Benefits Structuring</li>
+      </ul>
+    </div>
+
+    <div class="bg-white p-10 rounded-3xl shadow-md border-l-4 border-blue-600">
+      <h3 class="font-bold text-lg mb-4 text-blue-700">
+        Governance-Driven HR
+      </h3>
+      <p class="text-slate-600 text-sm">
+        Our HR systems are not theoretical templates — 
+        they are designed from real field experience across development organizations.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- DIGITAL SOLUTIONS -->
+<section class="py-24 bg-white">
+  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+
+    <div class="order-2 md:order-1 bg-slate-50 p-10 rounded-3xl shadow-md border-l-4 border-indigo-600">
+      <h3 class="font-bold text-lg mb-4 text-indigo-700">
+        Technology Meets Operations
+      </h3>
+      <p class="text-slate-600 text-sm">
+        We design practical systems focused on automation, efficiency and measurable performance.
+      </p>
+    </div>
+
+    <div class="order-1 md:order-2">
+      <h2 class="text-3xl font-black mb-6">Android & ERP Development</h2>
+
+      <p class="text-slate-600 mb-6 leading-relaxed">
+        From custom Android applications to factory-level ERP systems, 
+        we develop digital tools that solve operational challenges.
+      </p>
+
+      <ul class="text-sm text-slate-600 space-y-3">
+        <li>✔ Custom Android Business Applications</li>
+        <li>✔ Production ERP Design & Implementation</li>
+        <li>✔ Payroll Automation Systems</li>
+        <li>✔ Inventory & Client Ledger Modules</li>
+        <li>✔ Offline-First Architecture Solutions</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- FINANCIAL SERVICES -->
+<section class="py-24 bg-slate-50">
+  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+
+    <div>
+      <h2 class="text-3xl font-black mb-6">Income Tax & Financial Compliance</h2>
+
+      <p class="text-slate-600 mb-6 leading-relaxed">
+        We provide professional tax return filing and compliance support 
+        for individuals, SMEs and organizations.
+      </p>
+
+      <ul class="text-sm text-slate-600 space-y-3">
+        <li>✔ Individual Income Tax Return Filing</li>
+        <li>✔ Corporate Tax Compliance</li>
+        <li>✔ Wealth Statement Preparation</li>
+        <li>✔ Audit Support & Representation</li>
+      </ul>
+    </div>
+
+    <div class="bg-white p-10 rounded-3xl shadow-md border-l-4 border-emerald-600">
+      <h3 class="font-bold text-lg mb-4 text-emerald-700">
+        Compliance With Confidence
+      </h3>
+      <p class="text-slate-600 text-sm">
+        We simplify regulatory complexity and ensure structured financial documentation.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="py-24 bg-slate-900 text-white text-center">
+  <div class="max-w-4xl mx-auto px-6">
+    <h3 class="text-3xl font-black mb-6">
+      Ready to Strengthen Your Systems?
+    </h3>
+    <p class="text-slate-400 mb-8">
+      Let’s design governance-driven, technology-enabled solutions tailored to your organization.
+    </p>
+    <a href="contact.html" class="bg-blue-600 px-8 py-4 rounded-xl font-bold hover:bg-blue-500 transition">
+      Request Consultation
+    </a>
+  </div>
+</section>
+
+<footer class="bg-white py-10 text-center text-sm text-slate-500">
+  © 2026 CultureCraft360 | All Rights Reserved
+</footer>
+<!-- FLOATING WHATSAPP BUTTON -->
+<a href="https://wa.me/8801954696650" 
+   target="_blank"
+   class="fixed bottom-6 right-6 bg-emerald-500 hover:bg-emerald-600 text-white w-16 h-16 rounded-full shadow-2xl flex items-center justify-center transition transform hover:scale-110 z-50">
+
+   <!-- WhatsApp SVG Icon -->
+   <svg xmlns="http://www.w3.org/2000/svg" 
+        width="28" height="28" 
+        viewBox="0 0 24 24" 
+        fill="white">
+     <path d="M20.52 3.48A11.84 11.84 0 0012.05 0C5.39 0 .05 5.34.05 12c0 2.12.55 4.19 1.59 6.02L0 24l6.16-1.62A11.9 11.9 0 0012.05 24c6.66 0 12-5.34 12-12 0-3.2-1.25-6.21-3.53-8.52zM12.05 21.82c-1.86 0-3.68-.5-5.27-1.46l-.38-.23-3.66.96.98-3.57-.25-.37A9.78 9.78 0 012.27 12c0-5.38 4.4-9.78 9.78-9.78 2.61 0 5.06 1.02 6.91 2.87A9.71 9.71 0 0121.82 12c0 5.38-4.4 9.82-9.77 9.82zm5.37-7.37c-.29-.15-1.7-.84-1.97-.93-.26-.1-.45-.15-.64.15-.19.29-.74.93-.9 1.12-.16.19-.32.22-.61.07-.29-.15-1.23-.45-2.34-1.43-.86-.77-1.44-1.72-1.61-2.01-.17-.29-.02-.45.13-.6.13-.13.29-.32.45-.48.15-.16.19-.29.29-.48.1-.19.05-.36-.02-.51-.07-.15-.64-1.55-.87-2.12-.23-.56-.47-.48-.64-.49h-.55c-.19 0-.51.07-.78.36-.26.29-1.02 1-1.02 2.44 0 1.44 1.05 2.84 1.19 3.03.15.19 2.05 3.13 4.96 4.39.69.3 1.23.48 1.65.62.69.22 1.32.19 1.82.12.56-.08 1.7-.7 1.94-1.38.24-.67.24-1.24.17-1.38-.07-.15-.26-.22-.55-.37z"/>
+   </svg>
+
+</a>
 
 </body>
 </html>
